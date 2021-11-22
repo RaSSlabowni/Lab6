@@ -68,7 +68,7 @@ while True:
     while spisokkaff > 1:
         for i in range(n):
             if spisokkaf[i] == min(spisokkaf):
-                list_of_alpha[i] -= 0.01
+                spisokkaf[i] -= 0.01
         spisokkaff = round(sum(spisokkaf), 2)
     while spisokkaff < 1:
         for i in range(n):
